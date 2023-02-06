@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="email.css" />
+    <script src="validEmail.js"></script>
+  </head>
+  <body>
+    <div class="mail">
+      <center>
+        <h2>Customer Verification</h2>
+
+        <form name="form" action="#">
+          <label for="Phone">Phone No </label>
+          <input type="text" id="Phone" name="Phone" /><br /><br />
+
+          <label for="Email">Email </label>
+          <input type="text" id="Email" name="Email" /><br /><br />
+
+          <label for="Pass">Enter Password </label>
+          <input type="text" id="Pass" name="Pass" /><br /><br />
+
+          <label for="cPass">Confirm Password </label>
+          <input type="text" id="cPass" name="cPass" /><br /><br />
+
+          <button
+            type="submit"
+            onclick="validate(
+            document.form.Phone.value,
+            document.form.Email.value,
+            document.form.Pass.value,
+            document.form.cPass.value,
+        )"
+          >
+            Verify
+          </button>
+          <button type="reset">Clear All</button>
+        </form>
+      </center>
+    </div>
+  </body>
+</html>

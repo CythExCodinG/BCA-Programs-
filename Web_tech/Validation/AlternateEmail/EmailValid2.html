@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <script src="validEmail2.js"></script>
+  </head>
+  <body>
+    <center>
+      <h2>Customer Verification</h2>
+
+      <form name="form" action="#">
+        Enter Name
+        <input type="text" name="Name" /><br /><br />
+        Phone No
+        <input type="text" name="Phone" /><br /><br />
+
+        <button
+          type="submit"
+          onclick="validate(document.form.Name.value,document.form.Phone.value)"
+        >
+          Verify
+        </button>
+
+        <button type="reset">Clear All</button>
+      </form>
+    </center>
+  </body>
+</html>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book category="Cooking">
+    <book_name>Rohit Diaries</book_name>
+    <auth>Bablu</auth>
+    <year>2001</year>
+  </book>
+  <book category="Horror">
+    <book_name>Jod Fear</book_name>
+    <auth>Prabas</auth>
+    <year>2010</year>
+  </book>
+  <book category="Story">
+    <book_name>FearLEss fox</book_name>
+    <auth>CamreCop</auth>
+    <year>2011</year>
+  </book>
+</bookstore>

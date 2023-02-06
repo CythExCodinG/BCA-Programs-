@@ -1,0 +1,51 @@
+.box{
+  background-color: wheat;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main{
+  background-color: aqua;
+  height: 600px;
+  width: 450px;
+  padding: 10px;
+  display: flex;
+  justify-content:space-between;
+  flex-direction: column;
+   
+
+}
+.bottom{
+  padding: 15px;
+  border:dotted 2px;
+  width: auto;
+  height: auto;
+
+}
+.name{
+  height: 50px;
+
+}
+.card{
+  height: 50px;
+}
+.mm{
+  height: 50px;
+  width: 80px;
+}
+.yy{
+  height: 50px;
+  width: 120px;
+}
+.security{
+  height: 50px;
+  width: 150px;
+  float: right;
+}
+
+.sub{
+  height: 20px;
+  width: 90px;
+  
+}

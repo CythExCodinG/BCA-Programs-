@@ -1,0 +1,14 @@
+<html>
+  <body>
+    <script>
+      var num = prompt("Enter The Number");
+      var factor = new Array();
+      for (i = 1; i < num; i++) {
+        if (num % i == 0) {
+          factor.push(i);
+        }
+      }
+      document.write("Factore are :" + factor.join());
+    </script>
+  </body>
+</html>

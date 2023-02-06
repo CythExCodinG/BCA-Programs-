@@ -1,0 +1,30 @@
+<html>
+  <body>
+    <script>
+      var ch = prompt(
+        "Enter Following Choice \n1:Power\n2:Square root\n3:Absolute Value\n"
+      );
+      switch (ch) {
+        case "1":
+          var a = prompt("Enter Num");
+          var b = prompt("Enter Power");
+          var res = Math.pow(a, b);
+          document.write(a + " raise to " + b + " = " + res);
+          break;
+        case "2":
+          var a = prompt("Enter Num");
+          var res = Math.sqrt(a, b);
+          document.write("Square Root of : " + a + " = " + res);
+          break;
+        case "3":
+          var a = prompt("Enter Num for its Absolute Value");
+          var res = Math.abs(a);
+          document.write("Absolute Value of : " + a + " = " + res);
+          break;
+        default:
+          document.write("Wrong Choice");
+          break;
+      }
+    </script>
+  </body>
+</html>

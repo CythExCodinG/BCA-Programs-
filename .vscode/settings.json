@@ -1,0 +1,145 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontLigatures": true,
+  "telemetry.telemetryLevel": "off",
+  "editor.tabSize": 2,
+  // "editor.guides.bracketPairs": "active",
+  "editor.fontSize": 18,
+  // Controls the line height. Use 0 to compute the lineHeight from the fontSize.
+  "editor.lineHeight": 24,
+  // Controls if file decorations should use badges.
+  "editor.formatOnSave": true,
+  "editor.fontWeight": "900",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "800",
+  "terminal.integrated.lineHeight": 1.2,
+  "explorer.decorations.badges": false,
+  "files.autoSave": "onFocusChange",
+  "code-runner.runInTerminal": true,
+  "leetcode.workspaceFolder": "/home/hashxmash/.leetcode",
+  "code-runner.saveFileBeforeRun": true,
+  "editor.fontFamily": "'cascadia code','Operator Mono','FiraMono Nerd Font Regular','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "files.associations": {
+    "*.html": "html",
+    "*.js": "javascriptreact",
+    "*.jsx": "javascriptreact",
+    "array": "c",
+    "string": "c",
+    "string_view": "c"
+  },
+  "todohighlight.isEnable": true,
+  "todohighlight.include": [
+    "*/.js",
+    "*/.jsx",
+    "*/.ts",
+    "*/.tsx",
+    "*/.html",
+    "*/.php",
+    "*/.css",
+    "*/.scss"
+  ],
+  "todohighlight.keywords": [
+    {
+      "text": "////",
+      "color": "#9ffce0",
+      "backgroundColor": "#9ffce0",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "DEBUG",
+      "color": "#fff700",
+      "backgroundColor": "#ff0084",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "//<<",
+      "fontStyle": "0.5rem",
+      "color": "#e6175c",
+      "backgroundColor": "#e6175c",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "//>>",
+      "fontStyle": "0.5rem",
+      "color": "#1cc77a",
+      "backgroundColor": "#1cc77a",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "REVIEW",
+      "color": "#ff0000",
+      "backgroundColor": "yellow",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "NOTE",
+      "color": "#ffffff",
+      "backgroundColor": "#ae00ff",
+      "overviewRulerColor": "grey"
+    },
+    {
+      "text": "HACK",
+      "color": "#000",
+      "isWholeLine": false,
+      "backgroundColor": "yellow"
+    }
+  ],
+  "workbench.colorCustomizations": {
+    /* error squiggles */
+    "editorError.foreground": "#9dff00",
+    /* warning squggles */
+    "editorWarning.foreground": "#ffc400",
+    /* info squiggles */
+    "editorInfo.foreground": "#35ffab"
+  },
+  "workbench.startupEditor": "none",
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.executorMap": {
+    "cpp": "cd $dir && g++ -std=c++17 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    "python": "python3 -u"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "terminal.integrated.fontFamily": "monospace",
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [
+      80
+    ],
+    "editor.selectionHighlight": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "markdown.preview.fontSize": 16,
+  "leetcode.defaultLanguage": "cpp",
+  "leetcode.hint.configWebviewMarkdown": false,
+  "leetcode.hint.commandShortcut": false,
+  "leetcode.hint.commentDescription": false,
+  "dart.previewFlutterUiGuides": true,
+  "cmake.configureOnOpen": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.minimap.enabled": false,
+  "tabnine.experimentalAutoImports": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "atom": "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",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "workbench.colorTheme": "Community Material Theme Darker High Contrast",
+  "window.menuBarVisibility": "toggle",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "window.zoomLevel": -1,
+}

@@ -1,0 +1,57 @@
+.payment-mehtod{
+  background-color: blueviolet;
+  border: solid;
+  margin-left: 200px;
+  margin-right: 400px;
+}
+.inner-form{
+  border: dotted;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top:30px;
+}
+.name{
+  margin-left: 10px;
+  margin-top:10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 170px;
+}
+.card{
+  margin-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-right: 170px;
+}
+.option{
+  margin-left:10px;
+  padding-top:2px;
+  padding-right:30px ;
+  padding-bottom: 20px;
+  font-size: 10px;
+}
+.year{
+  margin-left:0px;
+  padding-top:2px;
+  padding-right:30px ;
+  padding-bottom: 20px;
+  font-size: 10px;
+}
+.code{
+ 
+  padding-right: 0px;
+  padding-top:0px;
+  padding-bottom: 20px;
+}
+.small{
+  font-size: 13px;
+  text-align: center;
+  margin-top: 0px;
+}
+.complete{
+  font-size:18px;
+  text-align:center;
+  margin-left: 110px;
+  margin-top:30px;
+  background-color: gray;
+}

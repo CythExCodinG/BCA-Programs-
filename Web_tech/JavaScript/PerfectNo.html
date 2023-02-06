@@ -1,0 +1,19 @@
+<html>
+  <body>
+    <script>
+      var input = prompt("Enter Number to Check If Perfect");
+      var v = input;
+      var count = 0;
+      for (var i = 1; i < input; i++) {
+        if (input % i == 0) {
+          count = count + i;
+        }
+      }
+      if (count == v) {
+        document.write("<h4>Given No is Perfect</h4>");
+      } else {
+        alert("<h4>Not a Perfect No</h4>");
+      }
+    </script>
+  </body>
+</html>

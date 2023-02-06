@@ -1,0 +1,20 @@
+<html>
+  <body>
+    <script>
+      var num = prompt("Enter to check if num is armstrog :");
+      var temp = num;
+      var a;
+      var arm = 0;
+      while (temp > 0) {
+        a = temp % 10;
+        temp = parseInt(temp / 10);
+        arm = arm + a * a * a;
+      }
+      if (arm == num) {
+        document.write("<center><h4>Num is Armstrong</h4></center>");
+      } else {
+        document.write("<center><h4>Not An ArmStrong No</h4></center>");
+      }
+    </script>
+  </body>
+</html>

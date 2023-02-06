@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <script>
+      function rev() {
+        var a,
+          b,
+          c,
+          temp = 0;
+        a = Number(document.getElementById("num").value);
+        b = a;
+        while (a > 0) {
+          c = a % 10;
+          a = parseInt(a / 10);
+          temp = temp * 10 + c;
+        }
+        alert(temp);
+      }
+    </script>
+  </head>
+  <body>
+    enter any value:<input id="num" />
+    <button onclick="rev()">check</button>
+  </body>
+</html>

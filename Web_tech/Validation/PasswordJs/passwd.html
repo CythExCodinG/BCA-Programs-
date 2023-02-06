@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <script>
+      function checkpassword(pass1, pass2) {
+        if (pass1 == pass2) {
+          alert("Welcome CHEIF!!!!!!");
+        } else {
+          alert("Enter PassWord Again Mismatch");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <center>
+      <div><h2>User Login</h2></div>
+      <div><b>welcome</b></div>
+    </center>
+    <form name="form">
+      <table border="2" align="center" cellpadding="20px">
+        <tr>
+          <td>username</td>
+          <td><input type="text" name="name" size="25" /></td>
+        </tr>
+        <tr>
+          <td>password:</td>
+          <td><input type="password" name="Password1" size="25" /></td>
+        </tr>
+        <tr>
+          <td>confirm password:</td>
+          <td><input type="password" name="Password2" size="25" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" align="center">
+            <button
+              type="submit"
+              onclick="checkpassword(document.form.Password1.value,document.form.Password2.value)"
+            >
+              LogIn
+            </button>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.box {
+  background-image: linear-gradient(80deg, red, grey);
+  border: solid;
+  border-radius: 12px;
+  margin-right: 380px;
+  margin-left: 320px;
+  margin-top: 100px;
+  width:440px;
+}
+
+.row {
+  justify-content: space-between;
+  display: flex;
+  padding-right: 10px;
+  padding-left: 10px;
+  padding-top: 12px;
+  font-size: 23px;
+}
+
+.number {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.cardholder {
+  font-size: 20px;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.name {
+  font-size: 17px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.img {
+  text-align: right;
+  margin-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
